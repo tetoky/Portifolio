@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tokiniaina Eddy | Agritech Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <nav class="nav">
+            <a class="logo" href="#home">RAKOTOARIVAO Tokiniaina Eddy</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reveal" id="home">
+            <div class="hero-bg" aria-hidden="true">
+                <div class="layer tech"></div>
+                <div class="layer agri"></div>
+                <div class="layer blend"></div>
+                <div class="grid"></div>
+            </div>
+            <div class="hero-content hero-layout">
+                <div class="hero-text-block">
+                    <p class="kicker">Agronomy Student - Agritech Developer - GIS & Data Enthusiast</p>
+                    <h1>Designing data-driven tools for smarter and more sustainable agriculture.</h1>
+                    <p class="hero-subtitle">I combine geospatial analysis, programming, and field knowledge to build practical digital solutions for agriculture.</p>
+                    <p class="hero-focus">Currently focused on <span id="dynamicRole">Precision Agriculture</span></p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Work With Me</a>
+                    </div>
+                </div>
+                <figure class="hero-photo-frame">
+                    <img src="assets/profile.jpg" alt="Tokiniaina Eddy portrait" class="hero-photo">
+                </figure>
+            </div>
+        </section>
+
+        <section class="stats section reveal">
+            <article class="stat"><strong>5+</strong><span>Agritech Projects</span></article>
+            <article class="stat"><strong>6+</strong><span>Core Technologies</span></article>
+            <article class="stat"><strong>3+</strong><span>Learning Tracks</span></article>
+        </section>
+
+        <section class="section reveal" id="about">
+            <p class="section-tag">About</p>
+            <h2 class="section-title">From agronomy to digital agriculture innovation.</h2>
+            <p class="section-text">
+                I am an agronomy student at the University of Antananarivo with a strong interest in applied technology.
+                My work connects agricultural realities with software, data analysis, and geospatial tools to support better decisions and stronger productivity.
+            </p>
+        </section>
+
+        <section class="section reveal" id="services">
+            <p class="section-tag">Services</p>
+            <h2 class="section-title">What I build</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Agricultural Data Analysis</h3>
+                    <p>Data cleaning, exploration, and actionable insights using Python and R.</p>
+                </article>
+                <article class="card">
+                    <h3>GIS & Mapping</h3>
+                    <p>Land-use visualization and spatial analysis with QGIS and Earth observation data.</p>
+                </article>
+                <article class="card">
+                    <h3>Agritech Prototyping</h3>
+                    <p>Practical prototypes for smart farming workflows and monitoring systems.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section reveal" id="projects">
+            <p class="section-tag">Projects</p>
+            <h2 class="section-title">Selected Agritech Work</h2>
+            <div class="cards">
+                <article class="card project">
+                    <h3>Crop Yield Analysis</h3>
+                    <p>Analyzed agronomic datasets to identify yield factors and improve decision support.</p>
+                </article>
+                <article class="card project">
+                    <h3>Agricultural Mapping</h3>
+                    <p>Built mapping workflows to study land use and agricultural potential zones.</p>
+                </article>
+                <article class="card project">
+                    <h3>Smart Irrigation Concept</h3>
+                    <p>Developed a soil-moisture-based automation concept using embedded hardware.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section cta reveal" id="contact">
+            <h2>Let's build practical Agritech solutions together.</h2>
+            <a href="mailto:tokiniaina@example.com" class="btn btn-primary">Contact Me</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
